@@ -94,6 +94,7 @@ p{
   background-color: transparent;
   border: 1.5px solid var(--accent);
   width: 90%;
+  min-height: 200px;
   margin: 0 auto;
   margin-bottom: 2rem;
 }
