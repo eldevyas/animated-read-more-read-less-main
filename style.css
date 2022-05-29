@@ -69,6 +69,7 @@ p{
   display: block;
   opacity: 1;
   height: 11rem;
+  overflow: hidden;
 }
 
 .read-more-btn{

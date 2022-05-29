@@ -24,4 +24,7 @@ cardHolder.addEventListener('click', e => {
 
 });
 
-$('.second-card').css({ height: $('img').height() });
+
+$(document).ready(function() {
+    $('.second-card').css({ height: $('.card__img').height() });
+})
