@@ -24,14 +24,14 @@ body{
 }
 
 .card{
+  position: relative;
   width: 90%;
-  background-color: var(--accent);
   color: #fff;
   margin: 2rem auto;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 
 .card__name{
@@ -45,7 +45,11 @@ body{
 }
 
 .card-contents{
+  position: absolute;
+  background-color: var(--accent);
+  width: 50%;
   padding: 1rem;
+  right: 0;
 }
 
 h1{
